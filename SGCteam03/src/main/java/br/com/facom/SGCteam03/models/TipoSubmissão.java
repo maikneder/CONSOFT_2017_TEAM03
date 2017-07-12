@@ -7,6 +7,6 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
 @Entity
-public class TipoEvento {
+public class TipoSubmissão {
 
 }
