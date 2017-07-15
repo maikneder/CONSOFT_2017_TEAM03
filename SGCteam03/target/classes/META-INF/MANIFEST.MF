@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: SGCteam03
 Implementation-Version: 1.0.0-SNAPSHOT
-Built-By: Maik Neder
+Built-By: User
 Implementation-Vendor-Id: br.com.facom
-Build-Jdk: 1.8.0_73
+Build-Jdk: 1.8.0_131
 Implementation-URL: http://projects.spring.io/spring-boot/SGCteam03/
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.
