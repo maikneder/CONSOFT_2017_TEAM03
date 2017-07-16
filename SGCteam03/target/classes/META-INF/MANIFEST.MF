@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Implementation-Title: SGCteam03
 Implementation-Version: 1.0.0-SNAPSHOT
-Built-By: User
+Built-By: nath_lanzarine
 Implementation-Vendor-Id: br.com.facom
 Build-Jdk: 1.8.0_131
 Implementation-URL: http://projects.spring.io/spring-boot/SGCteam03/

@@ -20,5 +20,6 @@ public class Evento {
     private String descricao;
     private String categoria;
     private Integer ativa;
+   
     
 }

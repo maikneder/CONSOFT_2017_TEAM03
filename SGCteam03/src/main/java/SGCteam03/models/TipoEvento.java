@@ -1,4 +1,4 @@
-package br.com.facom.SGCteam03.models;
+package SGCteam03.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
