@@ -4,126 +4,117 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-//import javax.persistence.ManyToOne;
 
 @Entity
 public class Conferencia {
-	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	   private Integer idconferencia;
-	   private String nome;
-	   private String subtitulo;
-	   private String nome_abr;
-	   private String subtitulo_sec;
-	   private String pag_web;
-	   private String organizador;
-	   private String cidade;
-	   private String email;
-	   private String remetente_email;
-	   private String email_conf;
-	   private String end_rem;
-	   private String conferenciacol;
-	   private String arq_sup;
-	   private String moeda;
-	   private Integer idevento;
-	   private Integer idsessao;
-	   private Integer idcategoriapreco;
-	   private Integer idfase;
-	   private Integer idtopico;
-	   private Integer idsubmissao;
-
-
+	private Integer idconferencia;
+	private String nome;
+	private String subtitulo;
+	private String nome_abr;
+	private String subtitulo_sec;
+	private String pag_web;
+	private String organizador;
+	private String cidade;
+	private String email;
+	private String remetente_email;
+	private String email_conf;
+	private String end_rem;
+	private String conferenciacol;
+	private String arq_sup;
+	private String moeda;
+	
 	public Integer getIdconferencia() 
 	{
 		return idconferencia;
 	}
-
+	
 	public void setIdconferencia(Integer idconferencia) 
 	{
 		this.idconferencia = idconferencia;
 	}
-
+	
 	public String getNome() 
 	{
 		return nome;
 	}
-
+	
 	public void setNome(String nome) 
 	{
 		this.nome = nome;
 	}
-
+	
 	public String getSubtitulo() 
 	{
 		return subtitulo;
 	}
-
+	
 	public void setSubtitulo(String subtitulo) 
 	{
 		this.subtitulo = subtitulo;
 	}
-
+	
 	public String getNome_abr() 
 	{
 		return nome_abr;
 	}
-
+	
 	public void setNome_abr(String nome_abr) 
 	{
 		this.nome_abr = nome_abr;
 	}
-
+	
 	public String getSubtitulo_sec() 
 	{
 		return subtitulo_sec;
 	}
-
+	
 	public void setSubtitulo_sec(String subtitulo_sec) 
 	{
 		this.subtitulo_sec = subtitulo_sec;
 	}
-
-	public String getPag_web() 
+	
+	public String getPag_web()
 	{
 		return pag_web;
 	}
-
+	
 	public void setPag_web(String pag_web) 
 	{
 		this.pag_web = pag_web;
 	}
-
+	
 	public String getOrganizador() 
 	{
 		return organizador;
 	}
-
+	
 	public void setOrganizador(String organizador) 
 	{
 		this.organizador = organizador;
 	}
-
+	
 	public String getCidade() 
 	{
 		return cidade;
 	}
-
+	
 	public void setCidade(String cidade) 
 	{
 		this.cidade = cidade;
 	}
-
+	
 	public String getEmail() 
 	{
 		return email;
 	}
-
+	
 	public void setEmail(String email) 
 	{
 		this.email = email;
 	}
-
+	
 	public String getRemetente_email() 
 	{
 		return remetente_email;
@@ -138,12 +129,12 @@ public class Conferencia {
 	{
 		return email_conf;
 	}
-
+	
 	public void setEmail_conf(String email_conf) 
 	{
 		this.email_conf = email_conf;
 	}
-
+	
 	public String getEnd_rem() 
 	{
 		return end_rem;
@@ -153,96 +144,36 @@ public class Conferencia {
 	{
 		this.end_rem = end_rem;
 	}
-
+	
 	public String getConferenciacol() 
 	{
 		return conferenciacol;
 	}
-
+	
 	public void setConferenciacol(String conferenciacol) 
 	{
 		this.conferenciacol = conferenciacol;
 	}
-
+	
 	public String getArq_sup() 
 	{
 		return arq_sup;
 	}
-
+	
 	public void setArq_sup(String arq_sup) 
 	{
 		this.arq_sup = arq_sup;
 	}
-
+	
 	public String getMoeda() 
 	{
 		return moeda;
 	}
-
+	
 	public void setMoeda(String moeda) 
 	{
 		this.moeda = moeda;
 	}
-
-	public Integer getIdevento() 
-	{
-		return idevento;
-	}
-
-	public void setIdevento(Integer idevento) 
-	{
-		this.idevento = idevento;
-	}
 	
-	public Integer getIdsessao() 
-	{
-		return idsessao;
-	}
-
-	public void setIdsessao(Integer idsessao) 
-	{
-		this.idsessao = idsessao;
-	}
-
-	public Integer getIdcategoriapreco() 
-	{
-		return idcategoriapreco;
-	}
-	
-	public void setIdcategoriapreco(Integer idcategoriapreco) 
-	{
-		this.idcategoriapreco = idcategoriapreco;
-	}
-
-	public Integer getIdfase() 
-	{
-		return idfase;
-	}
-
-	public void setIdfase(Integer idfase) 
-	{
-		this.idfase = idfase;
-	}
-
-	public Integer getIdtopico() 
-	{
-		return idtopico;
-	}
-	
-	public void setIdtopico(Integer idtopico) 
-	{
-		this.idtopico = idtopico;
-	}
-	
-	public Integer getIdsubmissao() 
-	{
-		return idsubmissao;
-	}
-
-	public void setIdsubmissao(Integer idsubmissao) 
-	{
-		this.idsubmissao = idsubmissao;
-	}
-
-
+		
 }
